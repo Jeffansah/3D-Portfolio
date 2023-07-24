@@ -10,8 +10,14 @@ import {
   reactjs,
   redux,
   tailwind,
+  materialui,
+  chakraui,
   nodejs,
+  nextjs,
+  jquery,
   mongodb,
+  firebase,
+  wordpress,
   git,
   figma,
   docker,
@@ -62,49 +68,61 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
+
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
+    name: "Next.js",
+    icon: nextjs,
+  },
+
+  {
     name: "Redux Toolkit",
     icon: redux,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+
+  {
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Material UI",
+    icon: materialui,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Chakra UI",
+    icon: chakraui,
   },
+
   {
     name: "Three JS",
     icon: threejs,
   },
   {
+    name: "Wordpress",
+    icon: wordpress,
+  },
+  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 

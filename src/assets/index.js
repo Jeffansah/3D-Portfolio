@@ -11,7 +11,7 @@ import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
+import html from "./tech/html5.svg";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -20,6 +20,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.svg";
+import jquery from "./tech/jquery.svg";
+import materialui from "./tech/material-ui.svg";
+import chakraui from "./tech/chakra.png";
+import firebase from "./tech/firebase.svg";
+import wordpress from "./tech/wordpress.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -50,10 +56,16 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  nextjs,
+  jquery,
   redux,
   tailwind,
+  materialui,
+  chakraui,
   typescript,
   threejs,
+  firebase,
+  wordpress,
   meta,
   shopify,
   starbucks,
