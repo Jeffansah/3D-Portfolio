@@ -37,6 +37,7 @@ import neocardinal from "./company/neocardinal.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import link from "./link.svg";
 
 export {
   logo,
@@ -75,4 +76,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  link,
 };
