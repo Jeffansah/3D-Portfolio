@@ -31,6 +31,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  mediaverse,
+  travel,
+  urbanhub,
 } from "../assets";
 
 export const navLinks = [
@@ -184,33 +187,56 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Travel Buddy",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      " This is a dynamic app that seamlessly combines the power of Google Maps API and geolocation technology to offer you an immersive experience in finding nearby attractions, restaurants, and hotels. With real-time updates and an intuitive interface, Travel Buddy empowers you to effortlessly explore your surroundings, whether you're in your hometown or traveling to new destinations.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "google-maps-api",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "geolocation",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: travel,
+    source_code_link: "https://github.com/Jeffansah/Travel-buddy",
+    live_link: "https://travel-buddy-o.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Mediaverse",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Mediaverse is a cutting-edge app that harnesses the power of YouTube's API to offer a comprehensive collection of videos, carefully categorized for a seamless streaming experience. With Mediaverse, users can effortlessly explore and access a diverse range of content, thoughtfully organized into various genres and themes. From entertainment and education to niche interests, Mediaverse ensures a personalized streaming journey, enabling users to delve into their preferred media seamlessly. ",
     tags: [
       {
         name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rapidapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mediaverse,
+    source_code_link: "https://github.com/Jeffansah/Mediaverse-Streaming-App",
+    live_link: "https://mediaverse.netlify.app",
+  },
+  {
+    name: "Urban Hub",
+    description:
+      "Urban Hub is an all-in-one real estate app that provides comprehensive property listings for both rentals and purchases. Seamlessly designed, Urban Hub empowers users to effortlessly filter through an extensive database to find their dream property based on essential criteria such as price, number of rooms, location, baths, utilties and more. Whether you're looking for a cozy apartment in the heart of the city or a spacious suburban home, Urban Hub's user-friendly interface allows for quick and precise searches for your ease of operation.",
+    tags: [
+      {
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -218,33 +244,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "chakra-ui",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: urbanhub,
+    source_code_link: "https://github.com/Jeffansah/Real-Estate-App",
+    live_link: "https://urbanhub.vercel.app/",
   },
 ];
 

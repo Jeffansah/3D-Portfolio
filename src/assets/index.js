@@ -38,6 +38,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import link from "./link.svg";
+import mediaverse from "./mediaverse.jpg";
+import travel from "./trip2.jpg";
+import urbanhub from "./urbanhub.png";
 
 export {
   logo,
@@ -77,4 +80,7 @@ export {
   jobit,
   tripguide,
   link,
+  mediaverse,
+  travel,
+  urbanhub,
 };
