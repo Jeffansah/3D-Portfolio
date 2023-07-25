@@ -35,6 +35,12 @@ const Contact = () => {
 
     setLoading(true);
 
+    if (!form.name || !form.email || !form.message) {
+      toast.error("Please check all details are entered.");
+      setLoading(false);
+      return;
+    }
+
     emailjs
       .send(
         "service_yntymng",
@@ -51,6 +57,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
+
           toast.success(
             "Thanks for your message! I will get back to you as soon as possible."
           );
@@ -121,7 +128,7 @@ const Contact = () => {
           </label>
           <button
             type="submit"
-            className="bg-tertiary py-3 px-8 outline-none w-full text-white font-bold shadow-md shadow-primary rounded-xl"
+            className="bg-tertiary py-3 px-8 outline-none w-full text-white font-bold shadow-md shadow-primary rounded-xl hover:text-secondary"
           >
             {loading ? "Sending..." : "Get in touch"}
           </button>

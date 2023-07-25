@@ -7,7 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { textVariant } from "../utils/motion";
+import { textVariant, fadeIn } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
@@ -61,6 +61,17 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
+      <motion.div
+        variants={(fadeIn, "Up", "spring", 1, 1)}
+        className="mt-14 flex justify-center items-center"
+      >
+        <button
+          type="submit"
+          className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl hover:text-secondary"
+        >
+          View Resume
+        </button>
+      </motion.div>
     </>
   );
 };
