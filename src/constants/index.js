@@ -86,10 +86,6 @@ const technologies = [
   },
 
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Firebase",
     icon: firebase,
   },
