@@ -8,6 +8,7 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant, fadeIn } from "../utils/motion";
+import { Link } from "react-router-dom";
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
@@ -63,14 +64,19 @@ const Experience = () => {
       </div>
       <motion.div
         variants={(fadeIn, "Up", "spring", 1, 1)}
-        className="mt-14 flex justify-center items-center"
+        className="mt-24 flex justify-center items-center"
       >
-        <button
-          type="submit"
-          className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl hover:text-secondary"
+        <a
+          href="https://drive.google.com/file/d/1ByS5Ahs3X6jmMpgnMopD7qg_UJEB3Omy/view?usp=drive_link"
+          target="_blank"
         >
-          View Resume
-        </button>
+          <button
+            type="submit"
+            className="bg-tertiary py-3 px-8 outline-none w-fit sm:text-2xl text-white font-bold shadow-md shadow-primary rounded-xl hover:text-secondary"
+          >
+            View Resume
+          </button>
+        </a>
       </motion.div>
     </>
   );
