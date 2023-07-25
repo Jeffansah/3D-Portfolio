@@ -7,6 +7,9 @@ import EarthCanvas from "./canvas/Earth";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const Contact = () => {
   const [form, setForm] = useState({
     name: "",
@@ -18,9 +21,56 @@ const Contact = () => {
 
   const formRef = useRef();
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {};
+    setForm({
+      ...form,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_yntymng",
+        "template_5n52c3h",
+        {
+          from_name: form.name,
+          to_name: "Jeffrey",
+          from_email: form.email,
+          to_email: "jeffansah13@gmail.com",
+          message: form.message,
+        },
+        "Cj-pA3d7LemLosNbF"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          toast.success(
+            "Thanks for your message! I will get back to you as soon as possible."
+          );
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+
+          console.log(error);
+
+          toast.error(
+            "Oops. Soomething went wrong...Please check and try again"
+          );
+        }
+      );
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -73,7 +123,7 @@ const Contact = () => {
             type="submit"
             className="bg-tertiary py-3 px-8 outline-none w-full text-white font-bold shadow-md shadow-primary rounded-xl"
           >
-            {loading ? "Sending..." : "Send"}
+            {loading ? "Sending..." : "Get in touch"}
           </button>
         </form>
       </motion.div>

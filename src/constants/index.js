@@ -119,10 +119,6 @@ const technologies = [
     name: "Wordpress",
     icon: wordpress,
   },
-  {
-    name: "git",
-    icon: git,
-  },
 ];
 
 const experiences = [
