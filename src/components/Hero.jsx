@@ -28,12 +28,12 @@ const Hero = () => {
           </h1>
           <p
             className={
-              " font-light lg:text-[25px] sm:text-[22px] xs:text-[18px] text-[16px] lg:leading-[40px] mt-5 lg:mt-5 text-gray-200"
+              " font-light lg:text-[25px] sm:text-[22px] xs:text-[18px] text-[16px] lg:leading-[40px] mt-5 lg:mt-5 text-gray-100"
             }
           >
-            I am a Fullstack Web Developer. <br className="sm:block hidden" /> I
-            build and design beautiful, functional and user-friendly web
-            applications that bring the magic of the internet to you
+            I am a Fullstack Web Developer. <br /> I build and design beautiful,
+            functional and user-friendly web applications that bring the magic
+            of the internet to you
           </p>
           <a href="#contact">
             <button className="mt-10 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-purple-600 group-hover:from-green-500 group-hover:to-purple-700 hover:text-white dark:text-white ">
