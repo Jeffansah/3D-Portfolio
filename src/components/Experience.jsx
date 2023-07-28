@@ -70,11 +70,10 @@ const Experience = () => {
           href="https://drive.google.com/file/d/1ByS5Ahs3X6jmMpgnMopD7qg_UJEB3Omy/view?usp=drive_link"
           target="_blank"
         >
-          <button
-            type="submit"
-            className="bg-tertiary py-3 px-8 outline-none w-fit sm:text-2xl text-white font-bold shadow-md shadow-primary rounded-xl hover:text-secondary"
-          >
-            View Resume
+          <button className="mt-10 sm:mt-20 sm:mb-12 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-purple-600 group-hover:from-green-500 group-hover:to-purple-700 hover:text-white dark:text-white ">
+            <span className="relative px-8 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-lg">
+              View Resume
+            </span>
           </button>
         </a>
       </motion.div>

@@ -86,7 +86,7 @@ const Contact = () => {
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionHeadText}>Contact</h3>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -126,11 +126,19 @@ const Contact = () => {
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
-          <button
+          {/*} <button
             type="submit"
             className="bg-tertiary py-3 px-8 outline-none w-full text-white font-bold shadow-md shadow-primary rounded-xl hover:text-secondary"
           >
             {loading ? "Sending..." : "Get in touch"}
+          </button> */}
+          <button
+            type="submit"
+            className=" relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-purple-600 group-hover:from-green-500 group-hover:to-purple-700 hover:text-white dark:text-white "
+          >
+            <span className="w-full relative px-8 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-lg">
+              {loading ? "Sending..." : "Get in touch"}
+            </span>
           </button>
         </form>
       </motion.div>
