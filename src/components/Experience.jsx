@@ -71,7 +71,7 @@ const Experience = () => {
           target="_blank"
         >
           <button className="mt-10 sm:mt-20 sm:mb-12 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-purple-600 group-hover:from-green-500 group-hover:to-purple-700 hover:text-white dark:text-white ">
-            <span className="relative px-8 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-lg">
+            <span className="relative px-8 py-4 transition-all ease-in duration-75 text-white bg-gray-900 rounded-md group-hover:bg-opacity-0 text-lg">
               View Resume
             </span>
           </button>
