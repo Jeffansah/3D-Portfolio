@@ -23,14 +23,12 @@ const Hero = () => {
           <div className="w-1 h-[400px] sm:h-[600px]  violet-gradient" />
         </div>
         <div className="ml-3 sm:ml-10 pr-4 sm:pr-20 lg:pr-[200px] mt-5 sm:mt-0">
-          <h1
-            className={`${styles.heroHeadText} text-white md:mt-28 text-[45px] sm:text-[60px] lg:text-[80px]`}
-          >
+          <h1 className={`${styles.heroHeadText} text-white md:mt-28 `}>
             Hi, I'm <span className="text-[#915eff]">Jeffrey</span>
           </h1>
           <p
             className={
-              " font-light lg:text-[25px] sm:text-[22px] xs:text-[18px] text-[16px] lg:leading-[40px] sm:mt-5 lg:mt-5 text-gray-100"
+              " font-light lg:text-[25px] sm:text-[22px] xs:text-[18px] text-[16px] lg:leading-[40px] mt-1 sm:mt-5 lg:mt-5 text-gray-100"
             }
           >
             I am a Fullstack Web Developer. <br /> I build and design beautiful,
