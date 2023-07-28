@@ -28,10 +28,10 @@ const Hero = () => {
           </h1>
           <p
             className={
-              " font-light lg:text-[25px] sm:text-[22px] xs:text-[18px] text-[16px] lg:leading-[40px] mt-5 lg:mt-5 text-white-100"
+              " font-light lg:text-[25px] sm:text-[22px] xs:text-[18px] text-[16px] lg:leading-[40px] mt-5 lg:mt-5 text-gray-200"
             }
           >
-            I am a Fullstack Web Developer <br className="sm:block hidden" /> I
+            I am a Fullstack Web Developer. <br className="sm:block hidden" /> I
             build and design beautiful, functional and user-friendly web
             applications that bring the magic of the internet to you
           </p>
