@@ -34,6 +34,7 @@ import {
   mediaverse,
   travel,
   urbanhub,
+  crypto,
 } from "../assets";
 
 export const navLinks = [
@@ -150,33 +151,6 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
     name: "Travel Buddy",
@@ -243,6 +217,28 @@ const projects = [
     image: urbanhub,
     source_code_link: "https://github.com/Jeffansah/Real-Estate-App",
     live_link: "https://urbanhub.vercel.app/",
+  },
+  {
+    name: "Solaris",
+    description:
+      "Solaris is an advanced cryptocurrency platform that presents a comprehensive overview of various cryptocurrencies and their performance in the market. With a seamless interface, Solaris empowers users to filter through an array of digital currencies, accessing real-time stats and historical data across different timeframes, including years, months, weeks, and days. Whether you're tracking the trajectory of established tokens or exploring emerging coins, Solaris ensures a user-friendly experience that simplifies crypto analysis and aids informed decision-making.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux-toolkit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ant-design",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: crypto,
+    source_code_link: "https://github.com/Jeffansah/Solaris-Crypto-App",
+    live_link: "https://solaris-o.netlify.app/",
   },
 ];
 

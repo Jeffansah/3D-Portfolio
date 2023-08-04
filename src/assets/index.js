@@ -41,6 +41,7 @@ import link from "./link.svg";
 import mediaverse from "./mediaverse.jpg";
 import travel from "./trip2.jpg";
 import urbanhub from "./urbanhub.png";
+import crypto from "./crypto.jpg";
 
 export {
   logo,
@@ -83,4 +84,5 @@ export {
   mediaverse,
   travel,
   urbanhub,
+  crypto,
 };
