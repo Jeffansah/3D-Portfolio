@@ -87,6 +87,8 @@ const Works = () => {
     slidesToScroll: 1,
     autoplay: true,
     pauseOnHover: true,
+    lazyLoad: true,
+    focusOnSelect: true,
     responsive: [
       {
         breakpoint: 860,
