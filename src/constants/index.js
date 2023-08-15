@@ -218,28 +218,28 @@ const projects = [
     source_code_link: "https://github.com/Jeffansah/Real-Estate-App",
     live_link: "https://urbanhub.vercel.app/",
   },
-  {
-    name: "Solaris",
-    description:
-      "Solaris is an advanced cryptocurrency platform that presents a comprehensive overview of various cryptocurrencies and their performance in the market. With a seamless interface, Solaris empowers users to filter through an array of digital currencies, accessing real-time stats and historical data across different timeframes, including years, months, weeks, and days. Whether you're tracking the trajectory of established tokens or exploring emerging coins, Solaris ensures a user-friendly experience that simplifies crypto analysis and aids informed decision-making.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux-toolkit",
-        color: "green-text-gradient",
-      },
-      {
-        name: "ant-design",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: crypto,
-    source_code_link: "https://github.com/Jeffansah/Solaris-Crypto-App",
-    live_link: "https://solaris-o.netlify.app/",
-  },
+  // {
+  //   name: "Solaris",
+  //   description:
+  //     "Solaris is an advanced cryptocurrency platform that presents a comprehensive overview of various cryptocurrencies and their performance in the market. With a seamless interface, Solaris empowers users to filter through an array of digital currencies, accessing real-time stats and historical data across different timeframes, including years, months, weeks, and days. Whether you're tracking the trajectory of established tokens or exploring emerging coins, Solaris ensures a user-friendly experience that simplifies crypto analysis and aids informed decision-making.",
+  //   tags: [
+  //     {
+  //       name: "reactjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "redux-toolkit",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "ant-design",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: crypto,
+  //   source_code_link: "https://github.com/Jeffansah/Solaris-Crypto-App",
+  //   live_link: "https://solaris-o.netlify.app/",
+  // },
 ];
 
 export { services, technologies, experiences, projects };
