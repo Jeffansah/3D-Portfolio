@@ -42,7 +42,7 @@ import mediaverse from "./mediaverse.jpg";
 import travel from "./trip2.jpg";
 import urbanhub from "./urbanhub.png";
 import crypto from "./crypto.jpg";
-import nikeshoe from "./nikeshoe.jpeg";
+import nikeshoe from "./nikeshoe.png";
 
 export {
   logo,

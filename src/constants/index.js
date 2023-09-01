@@ -197,28 +197,28 @@ const projects = [
     source_code_link: "https://github.com/Jeffansah/Mediaverse-Streaming-App",
     live_link: "https://mediaverse.netlify.app",
   },
-  // {
-  //   name: "Urban Hub",
-  //   description:
-  //     "Urban Hub is an all-in-one real estate app that provides comprehensive property listings for both rentals and purchases. Seamlessly designed, Urban Hub empowers users to effortlessly filter through an extensive database to find their dream property based on essential criteria such as price, number of rooms, location, baths, utilties and more. Whether you're looking for a cozy apartment in the heart of the city or a spacious suburban home, Urban Hub's user-friendly interface allows for quick and precise searches for your ease of operation.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "chakra-ui",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: urbanhub,
-  //   source_code_link: "https://github.com/Jeffansah/Real-Estate-App",
-  //   live_link: "https://urbanhub.vercel.app/",
-  // },
+  {
+    name: "NikeShop",
+    description:
+      "NikeShop is a sleek landing page featuring a collection of Nike shoe brands and captivating advertisements. With a clean, modern interface, users can effortlessly explore various shoe models and discover the latest offerings from Nike. Whether you're a sports enthusiast or a fashion-conscious individual, NikeShop provides a delightful browsing experience to satisfy your footwear cravings.",
+    tags: [
+      {
+        name: "vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind-css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "reactjs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nikeshoe,
+    source_code_link: "https://github.com/Jeffansah/nikeshop",
+    live_link: "https://nikeshop-e.vercel.app",
+  },
   {
     name: "Solaris",
     description:
@@ -240,28 +240,6 @@ const projects = [
     image: crypto,
     source_code_link: "https://github.com/Jeffansah/Solaris-Crypto-App",
     live_link: "https://solaris-o.netlify.app/",
-  },
-  {
-    name: "NikeShop",
-    description:
-      "NikeShop is a minimalist landing page that showcases various Nike shoe brands and advertisements. The app provides a clean and modern interface for users to explore different shoe models and get a glimpse of Nike's product offerings.",
-    tags: [
-      {
-        name: "vite",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind-css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "reactjs",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: nikeshoe,
-    source_code_link: "https://github.com/Jeffansah/nikeshop",
-    live_link: "https://nikeshop-e.vercel.app",
   },
 ];
 
