@@ -35,6 +35,7 @@ import {
   travel,
   urbanhub,
   crypto,
+  nikeshoe,
 } from "../assets";
 
 export const navLinks = [
@@ -239,6 +240,28 @@ const projects = [
     image: crypto,
     source_code_link: "https://github.com/Jeffansah/Solaris-Crypto-App",
     live_link: "https://solaris-o.netlify.app/",
+  },
+  {
+    name: "NikeShop",
+    description:
+      "NikeShop is a minimalist landing page that showcases various Nike shoe brands and advertisements. The app provides a clean and modern interface for users to explore different shoe models and get a glimpse of Nike's product offerings.",
+    tags: [
+      {
+        name: "vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind-css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nikeshoe,
+    source_code_link: "https://github.com/Jeffansah/nikeshop",
+    live_link: "https://nikeshop-e.vercel.app",
   },
 ];
 

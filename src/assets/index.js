@@ -42,6 +42,7 @@ import mediaverse from "./mediaverse.jpg";
 import travel from "./trip2.jpg";
 import urbanhub from "./urbanhub.png";
 import crypto from "./crypto.jpg";
+import nikeshoe from "./nikeshoe.jpeg";
 
 export {
   logo,
@@ -85,4 +86,5 @@ export {
   travel,
   urbanhub,
   crypto,
+  nikeshoe,
 };
