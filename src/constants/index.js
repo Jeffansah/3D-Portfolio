@@ -154,6 +154,28 @@ const experiences = [
 
 const projects = [
   {
+    name: "Urban Hub",
+    description:
+      "Urban Hub redefines your travel experience by offering a diverse selection of accommodations in cities across the globe. Our platform is designed to provide you with effortless booking and access to a wide range of stays. What sets us apart is our innovative RESTful API, meticulously crafted to manage, store, and display stays with precision. Whether you're seeking a cozy apartment or a luxurious hotel, Urban Hub simplifies your travel planning. Discover, book, and explore hassle-free, all within a single, user-friendly platform.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind-css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: urbanhub,
+    source_code_link: "https://github.com/Jeffansah/urban-hub",
+    live_link: "https://urban-hub.vercel.app/",
+  },
+  {
     name: "Travel Buddy",
     description:
       " This is a dynamic app that seamlessly combines the power of Google Maps API and geolocation technology to offer you an immersive experience in finding nearby attractions, restaurants, and hotels. With real-time updates and an intuitive interface, Travel Buddy empowers you to effortlessly explore your surroundings, whether you're in your hometown or traveling to new destinations.",

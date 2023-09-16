@@ -40,7 +40,7 @@ import tripguide from "./tripguide.png";
 import link from "./link.svg";
 import mediaverse from "./mediaverse.jpg";
 import travel from "./trip2.jpg";
-import urbanhub from "./urbanhub.png";
+import urbanhub from "./urbanhub.jpg";
 import crypto from "./crypto.jpg";
 import nikeshoe from "./nikeshoe.png";
 
