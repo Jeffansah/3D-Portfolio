@@ -43,6 +43,7 @@ import travel from "./trip2.jpg";
 import urbanhub from "./urbanhub.jpg";
 import crypto from "./crypto.jpg";
 import nikeshoe from "./nikeshoe.png";
+import shope from "./shop-e.jpeg";
 
 export {
   logo,
@@ -87,4 +88,5 @@ export {
   urbanhub,
   crypto,
   nikeshoe,
+  shope,
 };

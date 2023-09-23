@@ -36,6 +36,7 @@ import {
   urbanhub,
   crypto,
   nikeshoe,
+  shope,
 } from "../assets";
 
 export const navLinks = [
@@ -153,6 +154,28 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Shop-E",
+    description:
+      "Shop-E is your one-stop destination for online shopping, offering a vast selection of products and a seamless shopping experience. With user authentication, powerful search capabilities, a convenient shopping cart, and a secure checkout process, Shop-E makes online shopping a breeze. Our technology stack includes React for the frontend, Express for the backend, and Tailwind CSS for a modern and responsive design. Start shopping with Shop-E today and discover the ultimate e-commerce experience.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shope,
+    source_code_link: "https://github.com/Jeffansah/Shop-E",
+    live_link: "https://shop-e-io.vercel.app/",
+  },
   {
     name: "Urban Hub",
     description:
