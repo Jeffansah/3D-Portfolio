@@ -157,7 +157,7 @@ const projects = [
   {
     name: "Shop-E",
     description:
-      "Shop-E is your one-stop destination for online shopping, offering a vast selection of products and a seamless shopping experience. With user authentication, powerful search capabilities, a convenient shopping cart, and a secure checkout process, Shop-E makes online shopping a breeze. Our technology stack includes React for the frontend, Express for the backend, and Tailwind CSS for a modern and responsive design. Start shopping with Shop-E today and discover the ultimate e-commerce experience.",
+      "Shop-E is your one-stop destination for online shopping, offering a vast selection of products and a seamless shopping experience. Powered by the cutting-edge Next.js 13, Shop-E demonstrates mastery in database management by harnessing the full potential of Prisma and Supabase. It seamlessly integrates Stripe for secure payments and leverages Vercel for effortless server deployment. With an expert command of modern web development languages, including React, Express, and Tailwind CSS, Shop-E delivers a sleek and responsive design. Featuring user authentication, robust search capabilities, a convenient shopping cart, and a secure checkout process, Shop-E sets the standard for the future of e-commerce. Experience the pinnacle of database proficiency with Shop-E today.",
     tags: [
       {
         name: "nextjs",
