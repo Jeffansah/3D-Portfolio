@@ -26,6 +26,7 @@ import materialui from "./tech/material-ui.svg";
 import chakraui from "./tech/chakra.png";
 import firebase from "./tech/firebase.svg";
 import wordpress from "./tech/wordpress.svg";
+import prisma from "./tech/prisma.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -89,4 +90,5 @@ export {
   crypto,
   nikeshoe,
   shope,
+  prisma,
 };
