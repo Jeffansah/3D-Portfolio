@@ -38,6 +38,8 @@ import {
   nikeshoe,
   shope,
   prisma,
+  polaroid,
+  shadcn,
 } from "../assets";
 
 export const navLinks = [
@@ -90,8 +92,8 @@ const technologies = [
   },
 
   {
-    name: "Firebase",
-    icon: firebase,
+    name: "Typescript",
+    icon: typescript,
   },
   {
     name: "Node JS",
@@ -115,8 +117,8 @@ const technologies = [
     icon: materialui,
   },
   {
-    name: "Chakra UI",
-    icon: chakraui,
+    name: "Shadcn-ui",
+    icon: shadcn,
   },
 
   {
@@ -202,6 +204,28 @@ const projects = [
     image: urbanhub,
     source_code_link: "https://github.com/Jeffansah/urban-hub",
     live_link: "https://urban-hub.vercel.app/",
+  },
+  {
+    name: "Pixibee",
+    description:
+      "Pixibee is a cutting-edge cloud image storing application built with Next.js and TypeScript. It leverages the power of Cloudinary for secure and efficient photo storage and updates. The user interface is crafted with the beautiful Shadcn UI library, providing a seamless and visually stunning experience. Pixibee goes beyond standard image storage by offering advanced image editing capabilities, including AI generative fill. With Pixibee, you can securely store, manage, and enhance your image collection with ease.",
+    tags: [
+      {
+        name: "cloudinary",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "shadcn-ui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: polaroid,
+    source_code_link: "https://github.com/Jeffansah/Pixibee",
+    live_link: "https://pixibee.vercel.app/",
   },
   {
     name: "Travel Buddy",

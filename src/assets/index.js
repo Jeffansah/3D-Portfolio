@@ -27,6 +27,7 @@ import chakraui from "./tech/chakra.png";
 import firebase from "./tech/firebase.svg";
 import wordpress from "./tech/wordpress.svg";
 import prisma from "./tech/prisma.png";
+import shadcn from "./tech/shadcn.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -45,6 +46,7 @@ import urbanhub from "./urbanhub.jpg";
 import crypto from "./crypto.jpg";
 import nikeshoe from "./nikeshoe.png";
 import shope from "./shop-e.jpeg";
+import polaroid from "./polaroid.jpg";
 
 export {
   logo,
@@ -91,4 +93,6 @@ export {
   nikeshoe,
   shope,
   prisma,
+  polaroid,
+  shadcn,
 };
