@@ -137,7 +137,7 @@ const experiences = [
     company_name: "Documatic",
     icon: documatic,
     iconBg: "#383E56",
-    date: "April 2022 - August 2022",
+    date: "May 2022 - August 2022",
     points: [
       "Collaborated on building AI-driven tools to analyse and document over 30 codebases for software developing teams.",
       "Analysed requirements alongside CTO to determine the best approach for developing app functionality with Web3.0 language codebases such as Solidity.",
