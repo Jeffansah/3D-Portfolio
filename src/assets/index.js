@@ -47,6 +47,7 @@ import crypto from "./crypto.jpg";
 import nikeshoe from "./nikeshoe.png";
 import shope from "./shop-e.jpeg";
 import polaroid from "./polaroid.jpg";
+import globechat from "./globechat.webp";
 
 export {
   logo,
@@ -95,4 +96,5 @@ export {
   prisma,
   polaroid,
   shadcn,
+  globechat,
 };

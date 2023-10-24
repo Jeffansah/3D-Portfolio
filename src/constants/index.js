@@ -40,6 +40,7 @@ import {
   prisma,
   polaroid,
   shadcn,
+  globechat,
 } from "../assets";
 
 export const navLinks = [
@@ -91,15 +92,15 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
 
+  {
+    name: "Git",
+    icon: git,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
+  },
   {
     name: "MongoDB",
     icon: mongodb,
@@ -161,6 +162,28 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Globe.chat",
+    description:
+      "Welcome to Global.chat, your passport to effortless global communication. Global.chat is an AI-powered language translation chat app that enables users to communicate seamlessly, regardless of language barriers. With cutting-edge technology in nextjs13 coupled with typescript and a sleek interface powered by Shadcn-ui, this app lets you connect with people from all around the world without the hassle of language barriers. Express yourself freely, share ideas, and connect with people like never before. Enjoy real-time language translation, smooth and user-friendly ui, robust user authentication with NextAuth, secure data management with Firebase, flexible language preferences, and exclusive pro features for subscribers.",
+    tags: [
+      {
+        name: "nextjs13",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "zustand",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: globechat,
+    source_code_link: "https://github.com/Jeffansah/globe-chat-app",
+    live_link: "https://globe-chat.vercel.app/",
+  },
   {
     name: "Shop-E",
     description:
