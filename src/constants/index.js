@@ -165,7 +165,7 @@ const projects = [
   {
     name: "Globe.chat",
     description:
-      "Global.chat: Your passport to effortless global communication. Seamlessly connect with people worldwide, thanks to cutting-edge Next.js technology and Shadcn-UI. Enjoy real-time language translation, user-friendly design, and robust NextAuth authentication. Plus, secure data management with Firebase and exclusive pro features for subscribers through secure stripe payments!",
+      "Global.chat: Your passport to effortless global communication. Seamlessly connect with people worldwide using our multilingual Saas chat application, thanks to cutting-edge technology in Next.js13 and Shadcn-UI. Enjoy real-time language translation, user-friendly design, and robust security, leveraging the power of NextAuth and firebase rules. Plus, end-to-end data management with Firestore and exclusive pro features for subscribers through secure stripe payments!",
     tags: [
       {
         name: "nextjs13",
