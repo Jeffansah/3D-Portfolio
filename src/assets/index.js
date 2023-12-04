@@ -48,6 +48,7 @@ import nikeshoe from "./nikeshoe.png";
 import shope from "./shop-e.jpeg";
 import polaroid from "./polaroid.jpg";
 import globechat from "./globechat.webp";
+import asanka from "./asankaimg.webp";
 
 export {
   logo,
@@ -97,4 +98,5 @@ export {
   polaroid,
   shadcn,
   globechat,
+  asanka,
 };

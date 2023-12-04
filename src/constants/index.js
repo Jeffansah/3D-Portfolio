@@ -41,6 +41,7 @@ import {
   polaroid,
   shadcn,
   globechat,
+  asanka,
 } from "../assets";
 
 export const navLinks = [
@@ -183,6 +184,28 @@ const projects = [
     image: globechat,
     source_code_link: "https://github.com/Jeffansah/globe-chat-app",
     live_link: "https://globe-chat.vercel.app/",
+  },
+  {
+    name: "AsankaSend",
+    description:
+      "A gateway to financial empowerment for the African diaspora. Our intuitive platform offers secure money transfers, comprehensive savings, and investment services, tailored for those supporting families in Africa. Embrace a world of financial possibilities with AsankaSend, where every transaction is a step towards community growth and prosperity.",
+    tags: [
+      {
+        name: "elementor",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ui-core",
+        color: "green-text-gradient",
+      },
+      {
+        name: "element-pack",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: asanka,
+    source_code_link: "#",
+    live_link: "https://asankasend.com/",
   },
   {
     name: "Shop-E",
