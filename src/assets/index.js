@@ -38,15 +38,14 @@ import neocardinal from "./company/neocardinal.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import link from "./link.svg";
 import mediaverse from "./mediaverse.jpg";
-import travel from "./trip2.jpg";
+import travel from "./travel.jpg";
 import urbanhub from "./urbanhub.jpg";
 import crypto from "./crypto.jpg";
 import nikeshoe from "./nikeshoe.png";
 import shope from "./shop-e.jpeg";
-import polaroid from "./polaroid.jpg";
+import polaroid from "./polarid.jpg";
 import globechat from "./globechat.webp";
 import asanka from "./asankaimg.webp";
 
