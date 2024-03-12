@@ -148,11 +148,11 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
+    title: "Front End Developer",
     company_name: "NeoCardinal Limited",
     icon: neocardinal,
     iconBg: "#E6DEDD",
-    date: "April 2021 - August 2021",
+    date: "April 2021 - December 2024",
     points: [
       "Co-ordinated with senior employees to upgrade network features in the company’s best-selling software product which increased company sales by 35% .",
       "Troubleshot known issues, solving approximately 50 problems every week.",
