@@ -85,7 +85,6 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
   link,
   mediaverse,
   travel,
