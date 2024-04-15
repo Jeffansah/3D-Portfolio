@@ -42,6 +42,7 @@ import {
   shadcn,
   globechat,
   asanka,
+  resortbooking,
 } from "../assets";
 
 export const navLinks = [
@@ -163,6 +164,28 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "The APT Stays",
+    description:
+      "The APT Stays is a luxurious hotel,resort, cabin and villa booking platform that offers a wide range of accommodations in exotic destinations worldwide. Our platform is designed to provide you with a seamless booking experience, featuring a user-friendly interface, secure payment options, and real-time availability updates. Whether you're planning a romantic getaway or a family vacation, The APT Stays ensures a hassle-free booking process, allowing you to discover and reserve your dream stay with ease.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "shadcn-ui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: resortbooking,
+    source_code_link: "https://github.com/Jeffansah/The_Apt_Stays.git",
+    live_link: "https://apt-stays.vercel.app/",
+  },
   {
     name: "Globe.chat",
     description:

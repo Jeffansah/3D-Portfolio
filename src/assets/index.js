@@ -48,6 +48,7 @@ import shope from "./shop-e.jpeg";
 import polaroid from "./polarid.jpg";
 import globechat from "./globechat.webp";
 import asanka from "./asankaimg.webp";
+import resortbooking from "./resortbooking.jpg";
 
 export {
   logo,
@@ -97,4 +98,5 @@ export {
   shadcn,
   globechat,
   asanka,
+  resortbooking,
 };
