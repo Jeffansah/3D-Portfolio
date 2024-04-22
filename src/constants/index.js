@@ -136,6 +136,21 @@ const technologies = [
 
 const experiences = [
   {
+    title: "WordPress Developer",
+    company_name: "Freelance",
+    icon: wordpress,
+    iconBg: "#21759b",
+    date: "November 2019 – Present",
+    points: [
+      "Developed and maintained customized WordPress websites for various clients, enhancing functionality, aesthetics, and responsiveness to meet specific business needs.",
+      "Designed and implemented custom plugins and themes using PHP, JavaScript, and CSS to extend website capabilities and improve user experiences.",
+      "Optimized website performance through advanced techniques such as caching, image optimization, and database optimization, achieving up to 50% reduction in load times.",
+      "Integrated WooCommerce for e-commerce solutions, boosting client sales by implementing payment gateways, product customization, and inventory management.",
+      "Implemented SEO strategies and analytics tools to improve organic traffic and user engagement, resulting in an average 40% increase in traffic for client sites.",
+      "Enhanced security measures, conducted regular updates and backups, minimizing vulnerability to attacks and ensuring compliance with data protection regulations.",
+    ],
+  },
+  {
     title: "Software Developer",
     company_name: "Documatic",
     icon: documatic,
