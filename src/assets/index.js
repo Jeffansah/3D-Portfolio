@@ -49,6 +49,7 @@ import polaroid from "./polarid.jpg";
 import globechat from "./globechat.webp";
 import asanka from "./asankaimg.webp";
 import resortbooking from "./resortbooking.jpg";
+import cleaning from "./cleaning.jpg";
 
 export {
   logo,
@@ -99,4 +100,5 @@ export {
   globechat,
   asanka,
   resortbooking,
+  cleaning,
 };

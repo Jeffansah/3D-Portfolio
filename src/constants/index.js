@@ -43,6 +43,7 @@ import {
   globechat,
   asanka,
   resortbooking,
+  cleaning,
 } from "../assets";
 
 export const navLinks = [
@@ -200,6 +201,28 @@ const projects = [
     image: resortbooking,
     source_code_link: "https://github.com/Jeffansah/The_Apt_Stays.git",
     live_link: "https://apt-stays.vercel.app/",
+  },
+  {
+    name: "Mop Ventures",
+    description:
+      "Elevate your environment with our professional cleaning services. Our expertly crafted website, developed using WordPress and Elementor, seamlessly presents our range of services with precision and clarity. Navigate with ease to access comprehensive descriptions of our cleaning solutions, tailored to meet the needs of diverse spaces and clients. Our user-friendly interface ensures that all pertinent information is readily available, allowing you to make informed decisions about our services.",
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "elementor",
+        color: "green-text-gradient",
+      },
+      {
+        name: "yoastseo",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cleaning,
+    source_code_link: "#",
+    live_link: "https://mopventures.com",
   },
   {
     name: "Globe.chat",
