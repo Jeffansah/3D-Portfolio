@@ -139,7 +139,7 @@ const experiences = [
     title: "WordPress Developer",
     company_name: "Freelance",
     icon: wordpress,
-    iconBg: "#21759b",
+    iconBg: "#E6DEDD",
     date: "November 2019 – Present",
     points: [
       "Developed and maintained customized WordPress websites for various clients, enhancing functionality, aesthetics, and responsiveness to meet specific business needs.",
