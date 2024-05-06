@@ -64,7 +64,7 @@ const Experience = () => {
       </div>
       <motion.div
         variants={(fadeIn, "Up", "spring", 1, 1)}
-        className="mt-24 flex justify-center items-center"
+        className="mt-24 flex justify-center items-center "
       >
         <a
           href="https://drive.google.com/file/d/1ByS5Ahs3X6jmMpgnMopD7qg_UJEB3Omy/view?usp=sharing"
