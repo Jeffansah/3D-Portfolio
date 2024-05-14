@@ -31,7 +31,7 @@ const Hero = () => {
               " font-light lg:text-[25px] sm:text-[22px] xs:text-[18px] text-[16px] lg:leading-[40px] mt-1 sm:mt-5 lg:mt-5 text-gray-100"
             }
           >
-            A Fullstack Web Developer. <br /> I build and design beautiful,
+            A Front-end Web Developer. <br /> I build and design beautiful,
             functional and user-friendly web applications that bring the magic
             of the internet to you
           </p>
