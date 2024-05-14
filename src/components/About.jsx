@@ -38,11 +38,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl lg:max-w-5xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in Javascript and
-        expertise in frameworks such as React, Next.js and Node.js. I'm a quick,
-        passionate learner and collaborate closely with clients to create
-        efficient, scalable, and user-friendly solutions to real-world problems.
-        Let's work together to bring your ideas to life!
+        I'm a skilled front-end developer with experience in Nextjs and React.
+        I'm a quick, passionate learner and collaborate closely with clients to
+        create efficient, scalable, and user-friendly solutions to real-world
+        problems. Let's work together to bring your ideas to life!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
