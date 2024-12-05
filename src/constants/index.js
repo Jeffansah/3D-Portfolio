@@ -29,7 +29,6 @@ import {
   shopify,
   carrent,
   jobit,
-  tripguide,
   threejs,
   mediaverse,
   travel,
@@ -44,6 +43,7 @@ import {
   asanka,
   resortbooking,
   cleaning,
+  goldmansachs
 } from "../assets";
 
 export const navLinks = [
@@ -136,21 +136,31 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: "WordPress Developer",
-  //   company_name: "Freelance",
-  //   icon: wordpress,
-  //   iconBg: "#E6DEDD",
-  //   date: "November 2019 – Present",
-  //   points: [
-  //     "Developed and maintained customized WordPress websites for various clients, enhancing functionality, aesthetics, and responsiveness to meet specific business needs.",
-  //     "Designed and implemented custom plugins and themes using PHP, JavaScript, and CSS to extend website capabilities and improve user experiences.",
-  //     "Optimized website performance through advanced techniques such as caching, image optimization, and database optimization, achieving up to 50% reduction in load times.",
-  //     "Integrated WooCommerce for e-commerce solutions, boosting client sales by implementing payment gateways, product customization, and inventory management.",
-  //     "Implemented SEO strategies and analytics tools to improve organic traffic and user engagement, resulting in an average 40% increase in traffic for client sites.",
-  //     "Enhanced security measures, conducted regular updates and backups, minimizing vulnerability to attacks and ensuring compliance with data protection regulations.",
-  //   ],
-  // },
+ {
+  title: "Full Stack Engineer",
+  company_name: "Goldman Sachs",
+  icon: goldmansachs,
+  iconBg: "#383E56",
+  date: "September 2024 - Present",
+  points: [
+    "Designed, built, and maintained a centralized dashboard application leveraging React, a firm-specific UITK, Spring Boot, and MongoDB to monitor and track risk instances and vulnerabilities. Delivered real-time insights to stakeholders, reducing the average risk remediation time by 40%.",
+    "Played a key role in migrating legacy product families to standardized project templates aligned with the firm’s security and development best practices, improving application maintainability, reducing release cycle times, and minimizing manual intervention in build processes by 30%.",
+    "Collaborated with cross-functional teams across 25+ firmwide applications to implement advanced risk remediation strategies, such as refining vulnerability prioritization processes and enhancing incident response workflows. Achieved a 45% reduction in the allocated time for completing remediation tasks, enabling teams to focus on other affected applications and begin the next remediation cycle ahead of schedule.",
+    "Partnered with the AppDev team to resolve complex issues with Ant build scripts, including diagnosing and fixing intricate classpath misconfigurations that caused critical build failures. Cleared over 250 findings by addressing missing dependencies, resolving conflicting library versions, and reworking build logic, restoring reliable deployment workflows."
+  ],
+},{
+  title: "Front End Developer",
+  company_name: "NeoCardinal Limited",
+  icon: neocardinal,
+  iconBg: "#E6DEDD",
+  date: "April 2021 - December 2023",
+  points: [
+    "Built advanced data fetching and querying methods using React Query by Tanstack, optimizing API requests and data caching, resulting in a 50% reduction in network latency and an 85% increase in data loading speed.",
+    "Implemented revamped UI strategy using Tailwind CSS and lightweight UI kits, reducing CSS bundle size by 60% and enhancing maintainability.",
+    "Utilized Next.js’s server-side rendering (SSR) and static site generation (SSG) capabilities to improve SEO, resulting in a 3x increase in organic traffic.",
+    "Collaborated on microservice architecture using Docker and Kubernetes, leading to a 30% reduction in release cycle durations and enabling faster releases and updates.",
+  ],
+},
   {
     title: "Front End Engineer",
     company_name: "Documatic",
@@ -165,19 +175,7 @@ const experiences = [
       "Contributed to agile development, delivering over 15 feature enhancements prioritizing improved user experiences, system performance, and overall software efficiency.",
     ],
   },
-  {
-    title: "Front End Developer",
-    company_name: "NeoCardinal Limited",
-    icon: neocardinal,
-    iconBg: "#E6DEDD",
-    date: "April 2021 - December 2023",
-    points: [
-      "Built advanced data fetching and querying methods using React Query by Tanstack, optimizing API requests and data caching, resulting in a 50% reduction in network latency and an 85% increase in data loading speed.",
-      "Implemented revamped UI strategy using Tailwind CSS and lightweight UI kits, reducing CSS bundle size by 60% and enhancing maintainability.",
-      "Utilized Next.js’s server-side rendering (SSR) and static site generation (SSG) capabilities to improve SEO, resulting in a 3x increase in organic traffic.",
-      "Collaborated on microservice architecture using Docker and Kubernetes, leading to a 30% reduction in release cycle durations and enabling faster releases and updates.",
-    ],
-  },
+  
 ];
 
 const projects = [
