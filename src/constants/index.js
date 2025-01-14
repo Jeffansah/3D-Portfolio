@@ -43,6 +43,7 @@ import {
   asanka,
   resortbooking,
   cleaning,
+  goldmansachs,
   thelightveil
 } from "../assets";
 
@@ -63,11 +64,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React",
+    title: "Front end",
     icon: web,
   },
   {
-    title: "Next.js",
+    title: "Back end",
     icon: backend,
   },
 ];
@@ -139,7 +140,7 @@ const experiences = [
  {
   title: "Full Stack Engineer",
   company_name: "Goldman Sachs",
-  icon: goldman_sachs, // Replace with the actual icon variable
+  icon: goldmansachs,
   iconBg: "#383E56",
   date: "September 2024 - Present",
   points: [
@@ -203,26 +204,26 @@ const projects = [
   },
   {
     name: "The Light Veil",
-    description:
-      "Landing page of a premier lighting solutions company specializing in creating captivating visual experiences for events, concerts, weddings, and more. With cutting-edge technology and a passion for innovation, The Light Veil transforms venues into breathtaking spaces, ensuring unforgettable moments. From dynamic stage lighting to ambient designs, their team tailors solutions to meet the unique needs of every occasion.",
+    description: "Landing page of a premier lighting solutions company specializing in creating captivating visual experiences for events, concerts, weddings, and more. With cutting-edge technology and a passion for innovation, The Light Veil transforms venues into breathtaking spaces, ensuring unforgettable moments. From dynamic stage lighting to ambient designs, their team tailors solutions to meet the unique needs of every occasion.",
     tags: [
       {
-        name: "wordpress",
-        color: "blue-text-gradient",
+        "name": "Wordpress",
+        "color": "blue-text-gradient"
       },
       {
-        name: "elementor",
-        color: "green-text-gradient",
+        "name": "elementor",
+        "color": "green-text-gradient"
       },
       {
-        name: "yoastseo",
-        color: "pink-text-gradient",
-      },
+        "name": "yoastseo",
+        "color": "pink-text-gradient"
+      }
     ],
     image: thelightveil,
     source_code_link: "#",
-    live_link: "https://thelightveil.info",
-  },
+    live_link: "https://thelightveil.info/"
+  }
+,  
   {
     name: "Mop Ventures",
     description:

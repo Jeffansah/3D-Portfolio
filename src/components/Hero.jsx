@@ -9,8 +9,8 @@ const Hero = () => {
       "linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%)",
     backgroundOrigin: "border-box",
     backgroundClip: "content-box, border-box",
-    padding: "1rem", // Adjust the padding as needed
-    animation: "borderAnimation 3s linear infinite", // Add the animation
+    padding: "1rem", 
+    animation: "borderAnimation 3s linear infinite", 
   };
 
   return (
@@ -31,7 +31,7 @@ const Hero = () => {
               " font-light lg:text-[25px] sm:text-[22px] xs:text-[18px] text-[16px] lg:leading-[40px] mt-1 sm:mt-5 lg:mt-5 text-gray-100"
             }
           >
-            A Front-end Web Developer. <br /> I build and design beautiful,
+            A Full Stack Web Developer. <br /> I build and design beautiful,
             functional and user-friendly web applications that bring the magic
             of the internet to you
           </p>
@@ -45,7 +45,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/*<ComputersCanvas /> */}
+     
 
       <div className="absolute bottom-32 lg:bottom-24 w-full flex justify-center items-center">
         <a href="#about">

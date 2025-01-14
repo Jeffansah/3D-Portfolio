@@ -35,7 +35,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import documatic from "./company/documatic.svg";
 import neocardinal from "./company/neocardinal.png";
-import thelightveil from "./company/thelightveil.jpg";
+import goldmansachs from "./company/gs_logo.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -51,6 +51,7 @@ import globechat from "./globechat.webp";
 import asanka from "./asankaimg.webp";
 import resortbooking from "./resortbooking.jpg";
 import cleaning from "./cleaning.jpg";
+import thelightveil from "./thelightveil.jpg"
 
 export {
   logo,
@@ -102,5 +103,6 @@ export {
   asanka,
   resortbooking,
   cleaning,
+  goldmansachs,
   thelightveil
 };

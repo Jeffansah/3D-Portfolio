@@ -38,7 +38,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl lg:max-w-5xl leading-[30px]"
       >
-        I'm a skilled front-end developer with experience in Nextjs and React.
+        I'm a skilled full stack developer with experience in Nextjs and React.
         I'm a quick, passionate learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions to real-world
         problems. Let's work together to bring your ideas to life!
