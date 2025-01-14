@@ -43,7 +43,7 @@ import {
   asanka,
   resortbooking,
   cleaning,
-  goldmansachs
+  thelightveil
 } from "../assets";
 
 export const navLinks = [
@@ -139,7 +139,7 @@ const experiences = [
  {
   title: "Full Stack Engineer",
   company_name: "Goldman Sachs",
-  icon: goldmansachs,
+  icon: goldman_sachs, // Replace with the actual icon variable
   iconBg: "#383E56",
   date: "September 2024 - Present",
   points: [
@@ -200,6 +200,28 @@ const projects = [
     image: resortbooking,
     source_code_link: "https://github.com/Jeffansah/The_Apt_Stays.git",
     live_link: "https://apt-stays.vercel.app/",
+  },
+  {
+    name: "The Light Veil",
+    description:
+      "Landing page of a premier lighting solutions company specializing in creating captivating visual experiences for events, concerts, weddings, and more. With cutting-edge technology and a passion for innovation, The Light Veil transforms venues into breathtaking spaces, ensuring unforgettable moments. From dynamic stage lighting to ambient designs, their team tailors solutions to meet the unique needs of every occasion.",
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "elementor",
+        color: "green-text-gradient",
+      },
+      {
+        name: "yoastseo",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: thelightveil,
+    source_code_link: "#",
+    live_link: "https://thelightveil.info",
   },
   {
     name: "Mop Ventures",
